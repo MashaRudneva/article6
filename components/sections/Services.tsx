@@ -39,21 +39,18 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-24 bg-[#EDF1FB]">
+    <section id="services" className="py-24 bg-surface">
       <div className="max-w-5xl mx-auto px-6">
 
         {/* Heading */}
         <div className="mb-16">
-          <span className="text-xs font-semibold tracking-widest uppercase text-[#3B82F6]">
+          <span className="text-xs font-semibold tracking-widest uppercase text-accent">
             Services
           </span>
-          <h2
-            className="mt-3 text-4xl font-bold text-[#111827]"
-            style={{ fontFamily: "var(--font-serif)" }}
-          >
+          <h2 className="font-serif mt-3 text-4xl font-bold text-ink">
             How I can help
           </h2>
-          <p className="mt-4 text-[#6B7280] max-w-xl">
+          <p className="mt-4 text-muted max-w-xl">
             Practical, expert-led compliance services designed for organisations
             building, deploying, or procuring AI systems in the EU.
           </p>
@@ -64,20 +61,17 @@ export default function ServicesSection() {
           {services.map((s) => (
             <div
               key={s.title}
-              className="bg-white rounded-2xl p-8 border border-white hover:border-[#3B82F6]/30 transition-colors flex flex-col gap-5"
+              className="bg-white rounded-2xl p-8 border border-white hover:border-accent/30 transition-colors flex flex-col gap-5"
             >
-              <span
-                className="text-xs font-semibold tracking-widest uppercase text-[#3B82F6]"
-                style={{ fontFamily: "var(--font-mono)" }}
-              >
+              <span className="font-mono text-xs font-semibold tracking-widest uppercase text-accent">
                 {s.tag}
               </span>
-              <h3 className="text-xl font-semibold text-[#111827]">{s.title}</h3>
-              <p className="text-sm text-[#6B7280] leading-relaxed flex-1">{s.description}</p>
-              <ul className="space-y-2 pt-2 border-t border-[#EDF1FB]">
+              <h3 className="text-xl font-semibold text-ink">{s.title}</h3>
+              <p className="text-sm text-muted leading-relaxed flex-1">{s.description}</p>
+              <ul className="space-y-2 pt-2 border-t border-surface">
                 {s.bullets.map((b) => (
-                  <li key={b} className="text-sm text-[#111827] flex items-start gap-2">
-                    <span className="mt-1.5 w-1 h-1 rounded-full bg-[#3B82F6] shrink-0" />
+                  <li key={b} className="text-sm text-ink flex items-start gap-2">
+                    <span className="mt-1.5 w-1 h-1 rounded-full bg-accent shrink-0" />
                     {b}
                   </li>
                 ))}
@@ -90,7 +84,7 @@ export default function ServicesSection() {
         <div className="mt-12 text-center">
           <a
             href="#contact"
-            className="inline-block px-8 py-3 bg-[#0A2FA6] text-white rounded-md font-medium hover:bg-[#0826A6] transition-colors"
+            className="inline-block px-8 py-3 bg-primary text-white rounded-md font-medium hover:bg-primary-dark transition-colors"
           >
             Discuss your situation
           </a>
