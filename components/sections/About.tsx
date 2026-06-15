@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutSection() {
   return (
     <section id="about" className="py-24 bg-page">
@@ -14,20 +16,20 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-4 text-muted leading-relaxed">
               <p>
-                I am an independent EU AI Act compliance specialist with a background in
-                AI governance, regulatory affairs, and enterprise risk management.
+                I am an independent EU AI Act compliance specialist and Certified AI Compliance Officer (CAICO), 
+                working at the intersection of Artificial Intelligence, digital transformation and AI governance. 
+                </p>
+                <p>I also act as a compliance assessor at ExplorAI - a NL conformity assessment body in formation 
+                for high-risk AI systems under the EU AI Act. 
+                </p>
+                <p>
+                I specialise in the practical application of the EU AI Act, with focus on AI system classification, intended purpose, 
+                provider and deployer responsibilities, and AI Act obligations. 
+                </p>
+              <p>
                 I founded Article6 to give organisations direct access to expert,
-                practical compliance support — without the overhead of a large consultancy.
-              </p>
-              <p>
-                My work sits at the intersection of law, technology, and operations.
-                I speak the language of both legal teams and engineering departments,
-                which means assessments are thorough and training actually lands.
-              </p>
-              <p>
-                I work with companies across the Netherlands and the EU — from
-                early-stage AI startups navigating their first classification questions
-                to established enterprises preparing for conformity assessment.
+                practical EU AI Act support and to translate regulatory requirements into 
+              real-world AI system decisions and actionable compliance steps. 
               </p>
             </div>
 
@@ -61,8 +63,15 @@ export default function AboutSection() {
             <div className="relative w-64 h-72 md:w-72 md:h-80">
               <div className="absolute -bottom-3 -right-3 w-full h-full rounded-2xl bg-surface" />
               <div className="relative w-full h-full rounded-2xl overflow-hidden bg-surface-deep flex items-center justify-center text-primary/30 text-sm">
-                [ Photo ]
-              </div>
+                <Image
+                  src="/maria.png"
+                  alt="Maria Rudneva, EU AI Act compliance specialist"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 288px, 320px"
+                  className="object-cover object-right"
+                />            
+           </div>
             </div>
           </div>
 

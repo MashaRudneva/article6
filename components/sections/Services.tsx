@@ -1,11 +1,11 @@
 const services = [
   {
     tag: "Art. 6/ Art. 43",
-    title: "EU AI Act Pre-Assessment Advisory",
+    title: "Pre-Assessment Advisory EU AI Act",
     description:
-      "Not sure where your AI system falls under the regulation? I conduct a structured pre-assessment to determine your system's risk classification, identify applicable obligations, and map out your path to compliance — before the clock starts ticking.",
+      "Not sure where your AI system falls under the regulation? I conduct a structured pre-assessment to determine your system's risk classification, identify applicable obligations, and help to build a roadmap to compliance.",
     bullets: [
-      "Risk classification (unacceptable / high / limited / minimal)",
+      "AI systems risk classification",
       "Applicable obligations summary",
       "Compliance gap overview",
       "Actionable next-step roadmap",
@@ -15,24 +15,24 @@ const services = [
     tag: "Art. 43 / Annex VII",
     title: "Conformity Assessment Support",
     description:
-      "For high-risk AI systems, conformity assessment is a legal requirement. I guide your team through the full assessment process — from technical documentation and risk management to post-market monitoring — preparing you for third-party audit or self-assessment.",
+      "For high-risk AI systems, conformity assessment is a legal requirement. I guide your team through the full assessment process, incuding technical documentation, risk management, QMS, logging and monitoring to support your preparation for third-party audit or self-assessment.",
     bullets: [
       "Technical documentation review (Annex IV)",
-      "Risk management system (Art. 9)",
-      "Data governance and bias assessment",
-      "Conformity declaration preparation",
+      "High-risk AI systems requirements",
+      "Transparency obligations (Art. 50)",
+      "Harmonised standards guidance",
     ],
   },
   {
     tag: "Art. 4",
-    title: "EU AI Act Training",
+    title: "EU AI Act Training for legaland tech teams",
     description:
       "Article 4 requires providers and deployers to ensure AI literacy across relevant staff. I design and deliver bespoke training programmes — from executive briefings to technical team deep-dives — tailored to your sector, systems, and team.",
     bullets: [
-      "Executive awareness sessions (90 min)",
+      "Executive awareness sessions",
       "Compliance workshops and bootcamps",
       "Requirements mapping",
-      "Customised for your industry sector",
+      "Customised for your industry",
     ],
   },
 ];

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HeroSection() {
   return (
     <section className="min-h-screen flex items-center pt-16 bg-page">
@@ -20,7 +22,7 @@ export default function HeroSection() {
             {/* Sub */}
             <p className="text-lg text-muted leading-relaxed mb-10 max-w-md">
               I help organisations understand, assess, and meet their obligations
-              under the EU AI Act — from initial pre-assessment through to
+              under the EU AI Act - from initial pre-assessment through to
               full conformity and team training.
             </p>
 
@@ -54,6 +56,10 @@ export default function HeroSection() {
                 <span className="w-1.5 h-1.5 rounded-full bg-accent" />
                 Compliance training
               </span>
+              <span className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                Awareness training
+              </span>
             </div>
           </div>
 
@@ -65,7 +71,14 @@ export default function HeroSection() {
               <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden bg-surface-deep">
                 {/* Replace src with actual photo path */}
                 <div className="w-full h-full flex items-center justify-center text-primary/30 text-sm font-medium">
-                  [ Photo of Maria Rudneva ]
+                <Image
+                  src="/maria.png"
+                  alt="Maria Rudneva, EU AI Act compliance specialist"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 288px, 320px"
+                  className="object-cover"
+                />         
                 </div>
               </div>
               {/* Floating badge */}

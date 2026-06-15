@@ -2,11 +2,11 @@
 const posts = [
   {
     date: "2026-05-20",
-    category: "Regulation",
-    title: "What the August 2026 deadline means for high-risk AI providers",
+    category: "Case study",
+    title: "When Algorithms Get It Wrong Case#3 — What a Conformity Assessment Actually Looks Like",
     excerpt:
-      "The full application date for most EU AI Act obligations is 2 August 2026. Here is what high-risk AI system providers need to have in place before that date.",
-    slug: "#",
+      "Use case study of a high risk AI system to illustrate risks, practical steps and decisions points",
+    url: "https://medium.com/@explor_ai/when-algorithms-get-it-wrong-case-3-what-a-conformity-assessment-actually-looks-like-b5b9a3fd3e0d",
   },
   {
     date: "2026-04-14",
@@ -14,7 +14,7 @@ const posts = [
     title: "AI literacy under Article 4: what counts as 'sufficient'?",
     excerpt:
       "Article 4 requires providers and deployers to ensure their staff have adequate AI literacy. But the regulation is deliberately vague. This post breaks down what a defensible programme looks like.",
-    slug: "#",
+    url: "#",
   },
   {
     date: "2026-03-03",
@@ -22,7 +22,7 @@ const posts = [
     title: "The pre-assessment question every company should ask first",
     excerpt:
       "Before you commission a full conformity assessment, there is one foundational question that shapes everything else: is your AI system in scope at all?",
-    slug: "#",
+    url: "#",
   },
 ];
 
@@ -56,8 +56,8 @@ export default function UpdatesSection() {
         <div className="space-y-4">
           {posts.map((p) => (
             <a
-              key={p.slug + p.title}
-              href={p.slug}
+              key={p.url + p.title}
+              href={p.url}
               className="group flex flex-col md:flex-row md:items-center gap-4 md:gap-8 bg-white rounded-2xl p-6 border border-white hover:border-accent/30 transition-colors"
             >
               {/* Date */}
