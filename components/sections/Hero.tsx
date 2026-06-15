@@ -22,8 +22,7 @@ export default function HeroSection() {
             {/* Sub */}
             <p className="text-lg text-muted leading-relaxed mb-10 max-w-md">
               I help organisations understand, assess, and meet their obligations
-              under the EU AI Act - from initial pre-assessment through to
-              full conformity and team training.
+              under the EU AI Act - from initial pre-assessment through to conformity assessment preparation and team training.
             </p>
 
             {/* CTAs */}

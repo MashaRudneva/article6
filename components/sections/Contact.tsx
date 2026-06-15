@@ -52,8 +52,7 @@ export default function ContactSection() {
             Let&apos;s talk compliance
           </h2>
           <p className="text-[#6B7280] mb-10">
-            Whether you need a quick classification check or a full conformity
-            assessment, I am happy to start with a no-obligation call to understand
+            Whether you need a quick classification check or support preparing for conformity assessment, I am happy to start with a no-obligation call to understand
             your situation.
           </p>
         </div>
