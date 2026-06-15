@@ -15,11 +15,11 @@ const services = [
     tag: "Art. 43 / Annex VII",
     title: "Conformity Assessment Support",
     description:
-      "For high-risk AI systems, providers must be able to demonstrate conformity with the EU AI Act. I help teams prepare the required evidence package, including technical documentation, risk management, QMS, logging and monitoring",
+      "For high-risk AI systems, providers must be able to demonstrate conformity with the EU AI Act. I help teams prepare the required evidence package, including technical documentation, risk management, QMS, logging and monitoring.",
     bullets: [
       "Technical documentation review (Annex IV)",
       "High-risk AI systems requirements",
-      "Transparency obligations (Art. 50)",
+      "Transparency obligations",
       "Harmonised standards guidance",
     ],
   },

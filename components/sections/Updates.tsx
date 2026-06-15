@@ -5,7 +5,7 @@ const posts = [
     category: "Case study",
     title: "When Algorithms Get It Wrong Case#3 — What a Conformity Assessment Actually Looks Like",
     excerpt:
-      "A case study of a high risk AI system to illustrate risks, practical steps and decision points",
+      "A case study of a high-risk AI system to illustrate risks, practical steps and decision points",
     url: "https://medium.com/@explor_ai/when-algorithms-get-it-wrong-case-3-what-a-conformity-assessment-actually-looks-like-b5b9a3fd3e0d",
   },
   {
