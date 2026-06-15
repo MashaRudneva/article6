@@ -21,7 +21,7 @@ export default function ContactSection() {
     const data = new FormData(form);
 
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch(`https://formspree.io/f/xaqzvyvl`, {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
