@@ -28,17 +28,32 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://article6.eu"),
-  title: "Article6 — EU AI Act Compliance",
+  title: "Article6 — EU AI Act Advisory",
   description:
-    "Expert EU AI Act compliance assessment and training by Maria Rudneva. Pre-assessments, conformity assessments, and bespoke training for organisations operating in the EU.",
+    "EU AI Act compliance advisory. Expert assessment, conformity preparation, and training by Maria Rudneva.",
   openGraph: {
-    title: "Article6 — EU AI Act Compliance",
+    title: "Article6 — EU AI Act Advisory",
     description:
-      "Expert EU AI Act compliance services by Maria Rudneva — assessment, certification preparation, and training.",
+      "EU AI Act compliance advisory. Expert assessment, conformity preparation, and training.",
     url: "https://article6.eu",
     siteName: "Article6",
     locale: "en_NL",
     type: "website",
+    images: [
+      {
+        url: "https://article6.eu/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Article6 — EU AI Act Advisory",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Article6 — EU AI Act Advisory",
+    description:
+      "EU AI Act compliance advisory. Expert assessment, conformity preparation, and training.",
+    images: ["https://article6.eu/og-image.png"],
   },
 };
 

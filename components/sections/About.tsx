@@ -19,8 +19,7 @@ export default function AboutSection() {
                 I am an independent EU AI Act compliance specialist and Certified AI Compliance Officer (CAICO), 
                 working at the intersection of Artificial Intelligence, digital transformation and AI governance. 
                 </p>
-                <p>I also act as a compliance assessor at ExplorAI - a NL conformity assessment body in formation 
-                for high-risk AI systems under the EU AI Act. 
+                <p>I also work with ExplorAI, a Netherlands-based conformity assessment body in formation for high-risk AI systems under the EU AI Act, where I act as a compliance assessor. 
                 </p>
                 <p>
                 I specialise in the practical application of the EU AI Act, with focus on AI system classification, intended purpose, 

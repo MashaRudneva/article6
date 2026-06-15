@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "maria.r@explorai.com";
+const CONTACT_EMAIL = "maria.r@explorai.eu";
 
 export default function Footer() {
   return (
@@ -23,7 +23,12 @@ export default function Footer() {
             LinkedIn
           </a>
         </div>
-        <p className="text-xs text-white/40">
+      </div>
+      <div className="max-w-5xl mx-auto px-6 py-6 border-t border-white/10">
+        <p className="text-xs text-white/50">
+          Article6 provides practical EU AI Act compliance support and does not provide legal advice. For formal legal opinions, clients should consult a qualified legal professional.
+        </p>
+        <p className="text-xs text-white/40 mt-4">
           © {new Date().getFullYear()} Article6. All rights reserved.
         </p>
       </div>
