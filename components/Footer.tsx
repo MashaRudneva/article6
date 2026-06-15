@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "masha.rudneva@gmail.com";
+const CONTACT_EMAIL = "maria.r@explorai.com";
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
             {CONTACT_EMAIL}
           </a>
           <a
-            href="https://linkedin.com/in/mariarudneva"
+            href="https://linkedin.com/in/maria-rudneva"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"

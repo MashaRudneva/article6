@@ -1,7 +1,7 @@
 const services = [
   {
-    tag: "Art. 9 / Art. 43",
-    title: "EU AI Act Pre-Assessment",
+    tag: "Art. 6/ Art. 43",
+    title: "EU AI Act Pre-Assessment Advisory",
     description:
       "Not sure where your AI system falls under the regulation? I conduct a structured pre-assessment to determine your system's risk classification, identify applicable obligations, and map out your path to compliance — before the clock starts ticking.",
     bullets: [
@@ -13,7 +13,7 @@ const services = [
   },
   {
     tag: "Art. 43 / Annex VII",
-    title: "Conformity Assessment",
+    title: "Conformity Assessment Support",
     description:
       "For high-risk AI systems, conformity assessment is a legal requirement. I guide your team through the full assessment process — from technical documentation and risk management to post-market monitoring — preparing you for third-party audit or self-assessment.",
     bullets: [
@@ -30,8 +30,8 @@ const services = [
       "Article 4 requires providers and deployers to ensure AI literacy across relevant staff. I design and deliver bespoke training programmes — from executive briefings to technical team deep-dives — tailored to your sector, systems, and team.",
     bullets: [
       "Executive awareness sessions (90 min)",
-      "Legal & compliance team workshops",
-      "Technical team obligation mapping",
+      "Compliance workshops and bootcamps",
+      "Requirements mapping",
       "Customised for your industry sector",
     ],
   },
